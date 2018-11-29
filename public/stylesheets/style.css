@@ -1,0 +1,14 @@
+.no_bullet_list {
+  list-style: none;
+}
+
+#current_products {
+ display: block; 
+}
+
+.productImage {
+  display: inline;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Store</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/store.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+    <h2>Store Management Interface</h2>
+    <form id="newItemForm" action="">
+        <label for="name">Product Name: </label><input type="text" id="name" placeholder="Name"><br>
+        <label for="price">Price: </label><input type="text" id="price" placeholder="Price"><br>
+        <label for="image">Picture URL: </label><input type="text" id="image" placeholder="Image URL">
+        
+        <button id="addProduct">Add Product</button>
+    </form>
+    
+    <h2>Current Products</h2>
+    <ul id="products" class="no_bullet_list">
+        
+    </ul>
+    <div id="current_products"></div>
+    
+<!--<button id="deleteAll">Delete All</button> -->
+</body>
+</html>
